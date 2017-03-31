@@ -22,9 +22,9 @@ AngularJS >= 1.6.0, and Highcharts >= 5.0.0
  
 ##  Properties
 
-- config Chart configuration, all highcharts options are possible
-- panel-id Id of an optional panel (defaults to 1; useful if you have more than one chart on a page)
-- chart-on-init When the chart-wrapper is initialized it exposes an API and the chartOnInit-method gets called. 
+- **config** -  Chart configuration, all highcharts options are possible
+- **panel-id** - Id of an optional panel (defaults to 1; useful if you have more than one chart on a page)
+- **chart-on-init** - When the chart-wrapper is initialized it exposes an API and the chartOnInit-method gets called. 
   Save the exposed variable $API into a variable of your component in order to be able to 
   change the chart configuration at runtime. 
   The API is a reduced version of the Highcharts-API.
